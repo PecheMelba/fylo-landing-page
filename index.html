@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style-mobile.css">
+  <link rel="stylesheet" href="style-desktop.css">
+
+  <title>Frontend Mentor | Fylo landing page with two column layout</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center;color: hsl(0, 0%, 100%); }
+    .attribution a { color: hsl(0, 0%, 100%); }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <img id="header-logo" src="images/logo.svg" alt="logo">
+
+      <nav id="header-menu">
+        <div>Features</div>
+        <div>Team</div>
+        <div>Sign In</div>
+      </nav>
+    </header>
+
+    <section>
+      <img class="second-colunm-container" src="images/illustration-1.svg" alt="illustration-1">
+
+      <div class="first-colunm-container">
+        <h1>All your files in one secure location, accessible anywhere.</h1>
+        <p>Fylo stores your most important files in one secure location.
+          Access them wherever you need, share and collaborate with friends,
+          family, and co-workers.</p>
+        <form>
+          <input id="mail-input" type="email" name="" id="" required placeholder="Enter your email...">
+          <input id="submit-btn" type="submit" value="Get Started">
+        </form>
+      </div>
+
+    </section>
+
+    <section id="second-section">
+      <img class="second-colunm-container" src="images/illustration-2.svg" alt="illustration-2">
+
+      <div class="first-colunm-container">
+        <h1>Stay productive, wherever you are</h1>
+        <p>Never let location be an issue when accessing your files. Fylo has you
+          covered for all of your file storage needs.</p>
+        <p>Securely share files and folders with friends, family and colleagues for
+          live collaboration. No email attachments required!</p>
+        <a id="how-fylo-works-link" href="#">See how Fylo works<img id="link-arrow" src="images/icon-arrow.svg" alt="arrow"></a>
+
+        <div id="testimonial">
+          <p>Fylo has improved our team productivity by an order of magnitude. Since
+            making the switch our team has become a well-oiled collaboration machine.</p>
+            <div id="author-pannel">
+              <img id="profile-pic" src="images/avatar-testimonial.jpg" alt="profile picture testimonial">
+              <div id="author-infos">
+                <div id="author-name" >Kyle Burton</div>
+                <div id="author-job">Founder & CEO, Huddle</div>
+              </div>
+            </div>
+        </div>
+      </div>
+
+    </section>
+
+    <div id="early-acces-pannel">
+      <div class="first-colunm-container">
+        <h1>Get early access today</h1>
+        <p>It only takes a minute to sign up and our free starter tier is extremely generous.
+          If you have any questions, our support team would be happy to help you.</p>
+      </div>
+
+      <form class="second-colunm-container">
+        <input id="early-access-mail" type="email" name="" id="" placeholder="email@example.com">
+        <input id="early-acces-submit" type="submit" value="Get Started For Free">
+      </form>
+    </div>
+
+    <footer>
+      <img id="footer-logo" src="images/logo.svg" alt="logo">
+
+      <nav id="footer-menu">
+        <div class="sub-menu">
+          <div><img src="images/icon-phone.svg" alt="">Phone: +1-543-123-4567</div>
+          <div><img src="images/icon-email.svg" alt="">example@fylo.com</div>
+        </div>
+
+        <div class="sub-menu">
+          <div>About Us</div>
+          <div>Jobs</div>
+          <div>Press</div>
+          <div>Blog</div>
+        </div>
+
+        <div class="sub-menu">
+          <div>Contact Us</div>
+          <div>Terms</div>
+          <div>Privacy</div>
+        </div>
+
+        <div id="social-networks">
+          <img src="images/icon-facebook.svg" alt="facebook">
+          <img src="images/icon-twitter.svg" alt="twitter">
+          <img src="images/icon-instagram.svg" alt="instagram">
+        </div>
+      </nav>
+      <p class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="#">Peche Melba</a>.
+      </p>
+    </footer>
+  </main>
+</body>
+</html>

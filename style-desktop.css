@@ -1,0 +1,141 @@
+@media all and (min-width: 900px)
+{
+    body
+    {
+        background:url("images/bg-curve-desktop.svg") no-repeat 0 85vh, linear-gradient(to bottom, rgba(0, 0, 0, 0) 31%, hsl(240, 75%, 98%) 1%);
+    }
+    /* -----------------SECTION 1 -------------- */
+    section
+    {
+        display: flex;  
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+        width:100%;
+        margin-bottom: 17em;
+    }
+    .second-colunm-container
+    {
+        width:45%;
+        margin: 0 0% 0 0;
+        margin-right: 5vw;
+    }
+    .first-colunm-container
+    {
+        width:37%;
+        margin:0;
+        margin-left: 5vw;
+        text-align: left;
+    }
+    h1
+    {    
+        font-family: "Open Sans";
+        font-size: 2em;
+        margin-bottom: 1em;
+    }
+
+    /* ---------------SECTION 2-------------- */
+    #second-section
+    {
+        width:100%;
+        margin:0 auto 5em auto;    
+    }
+    #second-section .first-colunm-container
+    {
+        width:37%;
+        margin:0;
+        margin-left: 5vw;
+        text-align: left;
+    }
+    #second-section h1
+    {
+        font-size: 2em;
+        width: 100%;    
+        text-align: left;
+    }
+    #header-logo
+    {
+        width:10%;
+    }
+    header
+    {
+        padding: 2em 0;
+    }
+    #how-fylo-works-link
+    {
+        text-align: left;
+        display:block;
+        width:35%;
+        margin: 0;
+        margin-bottom:2em;
+    }
+    #link-arrow
+    {
+        margin-left: 1em;
+        width: 10%;
+    }
+    #testimonial
+    {
+        background:white url("images/icon-quotes.svg") no-repeat left 2em top 1.5em;
+        border-radius: 0.5em;
+        padding: 3em 2em 2em 2em;
+        
+        width:50%;
+        margin: 0;
+
+    }
+    /* --------------EARLY ACCES--------------- */
+    #early-acces-pannel
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        padding: 6em 0em 5em 0em;
+        margin: 0;
+    }
+    #early-acces-pannel .second-colunm-container
+    {
+        width:35%;
+        padding: 0;  
+        margin-right: 5vw;
+    }
+    #early-access-mail
+    {
+        width:auto;
+        margin-bottom:1em;
+    }
+    #early-acces-submit
+    {
+        width:60%;
+        margin:0;
+    }
+    /* ------------FOOTER----------- */
+    footer
+    {
+        padding: 5em 5vw 0 5vw;
+    }
+    #footer-logo
+    {        
+        margin: 0 0 2em 0;
+        padding: 0;
+    }
+    #footer-menu
+    {
+        display: flex;
+        justify-content: space-between;
+        margin: 0;
+        padding: 0;
+        width:100%;
+    }
+    .sub-menu 
+    { 
+        margin-right: 0%; 
+        width:35%;
+    }
+    #social-networks
+    {
+        margin:0 auto;
+        width:20%;     
+    }   
+}
